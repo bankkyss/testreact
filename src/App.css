@@ -1,0 +1,106 @@
+.inline {
+  display:flex;
+  width: 100%;
+}
+.box {
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
+  background-color: #f0f0f0; /* Add a background color for better visibility */
+}
+
+.allbox {
+  border-radius: 7px;
+  width: 50%;
+  /* border: 1px solid #495057; */
+  background-color: #ced4da;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.checkbox-control {
+  display: block;
+  width: 90%;
+  padding: 0.375rem 0.75rem;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.text-label {
+  font-size: 2rem;
+}
+
+.checkbox-control {
+  
+  padding: 0.375rem 0.75rem;
+  font-size: 2rem;
+  width: 10%;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control {
+    display: block;
+    width: 90%;
+    padding: 0.375rem 0.75rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  /* Add focus styles for form-control */
+  .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  /* Add additional styles for disabled form-control */
+  .form-control:disabled {
+    background-color: #e9ecef;
+    opacity: 1;
+  }
+  
+  /* Add styles for form-control labels, if needed */
+  .label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .fulldiv {
+    height: 100dvh;
+    background-color: rgb(63, 63, 63);
+    width: 100vw;
+
+  }
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #777;
+}
