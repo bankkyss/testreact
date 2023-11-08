@@ -165,7 +165,7 @@ export default class TextMask extends Component {
               />
             </div>
           </div>
-            <div className='inline' style={{ display: 'flex'}}>
+            <div className='inline_ignor' style={{ display: 'flex'}}>
               <input
               type="checkbox"
               className="checkbox-control"
